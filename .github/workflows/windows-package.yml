@@ -1,0 +1,26 @@
+name: Package Windows app
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and test executable
+        shell: powershell
+        run: ./packaging/build-windows.ps1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: KixWare-Windows-x64
+          path: |
+            dist/KixWare-Windows-x64.zip
+            dist/smoke-report.json
+          if-no-files-found: error

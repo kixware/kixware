@@ -1,0 +1,24 @@
+KixWare - Windows 10/11 x64
+
+1. Extract this ZIP to a folder.
+2. Double-click KixWare.exe. Python installation is NOT required.
+3. Click Scan this PC. Review the confirmation, choose your gaming GPU,
+   correct any missing/incorrect details, and confirm to generate a profile.
+   The read-only scan stays local and never applies tweaks.
+4. Open AA & NVIDIA for manual in-game AA, Reflex, DLSS (RTX where offered)
+   and NVIDIA Control Panel recommendations.
+5. Review individual Windows tweaks before applying them.
+6. To remove a change: Applied & recovery > Undo / remove tweak.
+
+This build is unsigned. Windows may show a SmartScreen warning.
+Do not disable antivirus or Windows security to run it.
+No administrator rights, account or internet access required.
+
+Backups: %LOCALAPPDATA%\KixWare\backups.json
+Keep that file until you undo every change. Run only one copy at a time.
+Restart Siege after changes; sign out/back in for pointer settings.
+
+Testing: record Siege benchmark results before changes. Apply one tweak,
+repeat the same benchmark several times, and undo changes that do not help.
+No guaranteed FPS or ping improvements. In-game recommendations are manual.
+Wine smoke testing is not native Windows or Siege performance validation.
