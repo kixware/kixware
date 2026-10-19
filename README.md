@@ -4,7 +4,7 @@ A Windows 10/11 desktop companion for Rainbow Six Siege. Enter CPU, GPU, RAM, de
 
 ## Run the packaged Windows app (no Python installation)
 
-Download `KixWare-Windows-x64.zip`, extract it, and double-click **KixWare.exe**. Keep the included quick-start guide. This is a portable, unsigned Windows x64 app; Windows may show SmartScreen. Do not disable Windows security or antivirus. Actual FPS and latency improvements require measurement on your hardware.
+Download [KixWare-Windows-x64.zip](https://github.com/kixware/kixware/raw/refs/heads/main/downloads/KixWare-Windows-x64.zip), extract it, and double-click **KixWare.exe**. Keep the included quick-start guide. This is a portable, unsigned Windows x64 app; Windows may show SmartScreen. Do not disable Windows security or antivirus. Actual FPS and latency improvements require measurement on your hardware.
 
 ## Open and run from source
 
